@@ -55,7 +55,7 @@ class DataIngestion:
 
         """
         Method Name :   initiate_data_ingestion
-        Description :   This function initiates a data ingestion steps using above 2 functions
+        Description :   This function initiates a data ingestion steps
         Output      :   Returns data ingestion artifact
         On Failure  :   Write an exception log and then raise an exception
         """

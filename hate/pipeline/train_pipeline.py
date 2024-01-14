@@ -2,12 +2,9 @@ import sys
 from hate.logger import logging
 from hate.exception import CustomException
 from hate.components.data_ingestion import DataIngestion
-from hate.components.data_transformation import DataTransformation
-from hate.components.model_trainer import ModelTrainer
-from hate.components.model_evaluation import ModelEvaluation
-from hate.components.model_pusher import ModelPusher
-from hate.entity.config_entity import DataIngestionConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig, ModelPusherConfig
-from hate.entity.artifact_entity import DataIngestionArtifacts, DataTransformationArtifacts, ModelTrainerArtifacts, ModelEvaluationArtifacts, ModelPusherArtifacts
+
+from hate.entity.config_entity import DataIngestionConfig
+from hate.entity.artifact_entity import DataIngestionArtifacts
 
 
 class TrainPipeline:
