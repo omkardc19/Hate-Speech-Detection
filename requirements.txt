@@ -3,6 +3,7 @@ pandas
 tensorflow==2.9.2
 matplotlib
 seaborn
+zipfile
 nltk
 regex
 scikit-learn

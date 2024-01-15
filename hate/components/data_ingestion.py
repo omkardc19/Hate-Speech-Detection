@@ -71,8 +71,8 @@ class DataIngestion:
 
             logging.info("Unzipped file and split into train and valid")
 
-            data_ingestion_artifacts = DataIngestionArtifacts(imbalance_data_file_path=imbalance_data_file_path,
-                                                              raw_data_file_path=raw_data_file_path)
+            data_ingestion_artifacts = DataIngestionArtifacts(imbalance_data_file_path=imbalance_data_file_path,raw_data_file_path=raw_data_file_path)
+                                                              
 
             logging.info("Exited the initiate_data_ingestion method of Data ingestion class")
 
