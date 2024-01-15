@@ -71,4 +71,3 @@ class ModelPusherConfig:
         self.BUCKET_NAME = BUCKET_NAME
         self.MODEL_NAME = MODEL_NAME
     
-
