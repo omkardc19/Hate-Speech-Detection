@@ -80,4 +80,3 @@ class PredictionPipeline:
             return predicted_text
         except Exception as e:
             raise CustomException(e, sys) from e
-
